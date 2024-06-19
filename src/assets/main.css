@@ -1,0 +1,36 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+a,
+.textcolor {
+  text-decoration: none;
+  color: blue;
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: white;
+    border-radius: 30px;
+    
+  }
+ 
+}
+
+
+@font-face {
+  font-family: maintext;
+  src: url('Fonts/silka-regular-webfont.ttf');
+}
+@font-face {
+  font-family: Mainheader;
+  src: url('Fonts/Latinotype - Moranga Bold.otf');
+}
+
+
