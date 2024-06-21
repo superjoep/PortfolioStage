@@ -18,13 +18,13 @@ export default {
 </script>
 <template>
   
-  <div class="flex flex-wrap: wrap; justify-center flex-row gap-4 flex-wrap"> 
-    
+  <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 h-full"> 
     <About />
     <Skills />
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-1 lg:grid-cols-1">
+      <myproj />
+      <contact />
+    </div>
     <workExp />
-    <myproj />
-    <contact />
-    
   </div>
 </template>
