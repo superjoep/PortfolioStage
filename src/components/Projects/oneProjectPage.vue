@@ -10,7 +10,7 @@
   
   <script setup>
   import { useRoute } from 'vue-router'
-  import { projects } from '../Projects/oneProject.vue'
+  import { projects } from '../Projects/projectsStored.vue'
   const route = useRoute()
   </script>
   
