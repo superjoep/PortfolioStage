@@ -1,14 +1,26 @@
-
 <template>
-    <div  class="rounded-3xl h-full p-8 self-start hover:shadow-xl bg-white text-black shadow-md col-span-3 sm:col-span-3 md:col-span-3 flex flex-col"> 
-    <div class="text-2xl">{{ projects[route.params.id].title }}</div>
-    {{ projects[route.params.id].description }}
-    <img style="width: 95vw; height: 50vh; border-radius: 20px; object-fit: cover;" :src="projects[route.params.id].image">
+    <div class="project-detail-container rounded-3xl h-full p-8 hover:shadow-xl bg-white text-black shadow-md flex flex-col items-center">
+      <div class="text-2xl font-bold mb-4">{{ projects[route.params.id].title }}</div>
+      <p class="text-sm text-gray-600 mb-4 text-center px-2">
+        {{ projects[route.params.id].description }}
+      </p>
+      <img :src="projects[route.params.id].image" class="w-full max-w-screen-md h-auto rounded-2xl object-cover border-2 border-gray-200" />
     </div>
-</template>
-
-<script setup>
-import { useRoute } from 'vue-router'
-import { projects } from '../Projects/oneProject.vue'
-const route = useRoute()
-</script>
+  </template>
+  
+  <script setup>
+  import { useRoute } from 'vue-router'
+  import { projects } from '../Projects/oneProject.vue'
+  const route = useRoute()
+  </script>
+  
+  <style scoped>
+  /* Font families */
+  .font-mainheader {
+    font-family: 'Mainheader', sans-serif;
+  }
+  .font-maintext {
+    font-family: 'maintext', sans-serif;
+  }
+  </style>
+  

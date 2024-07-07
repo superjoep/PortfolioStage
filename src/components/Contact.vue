@@ -43,7 +43,7 @@
       
 
       </div>
-      <div class="grid place-content-center"><button class="rounded-full items-center text-white w-32 h-12 bg-green-400 hover:bg-green-500">Chat with me</button>               
+      <div class="grid place-content-center"><RouterLink to="/contact/chat"  class="rounded-full items-center text-center py-3 text-white w-60 h-12 bg-green-400 hover:bg-green-500">Chat with my AI clone</RouterLink>
       </div>
       </div>
 
