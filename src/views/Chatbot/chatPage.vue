@@ -18,6 +18,7 @@
           type="text"
           v-model="chatMessage"
           placeholder="Type a message"
+          :disabled=isDisabled
           class="chat-input shadow-md p-2 rounded-xl flex-1"
         />
         <input
@@ -39,21 +40,21 @@
         chatMessage: '',
         tempChatData: [],
         isTyping: false,  // Add this to manage the typing indicator state
+        isDisabled: false,
       };
     },
     methods: {
       async sendmessage() {
         if (this.chatMessage.trim() === '') return; // Prevent empty messages
-  
         let userMessage = {
           isAI: false,
           Message: this.chatMessage,
         };
         this.tempChatData.push(userMessage);
         this.chatMessage = ''; // Clear the input after sending
-  
+        const delay = ms => new Promise(res => setTimeout(res, ms));
         this.isTyping = true;  // Show the typing indicator
-  
+        this.isDisabled = true
         try {
           const response = await axios.post('http://localhost:3000/api', {
             message: userMessage.Message  // Send the message to the backend
@@ -64,6 +65,8 @@
             Message: response.data.message,
           };
           this.tempChatData.push(aiMessage);
+          
+         
         } catch (error) {
           console.error('Error fetching message:', error);
           let errorMessage = {
@@ -73,13 +76,16 @@
           this.tempChatData.push(errorMessage);
         } finally {
           this.isTyping = false;  // Hide the typing indicator
+          setTimeout(() => {  this.isDisabled = false }, 5000);
         }
       },
       convertEmojis(message) {
         return emojify(message);  // Convert emoji text to actual emojis
       },
+      
     },
   };
+  
   </script>
   
   <style scoped>

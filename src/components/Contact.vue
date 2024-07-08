@@ -1,5 +1,5 @@
 <template>
-    <div class="rounded-3xl hover:shadow-xl p-8 bg-white text-black col-span-1 sm:col-span-1 md:col-span-1 h-auto md:h-full flex flex-col shadow-md basis-1/2"> 
+    <div class="rounded-3xl hover:shadow-xl p-8 bg-white text-black col-span-1 sm:col-span-1 md:col-span-1 h-auto flex-wrap flex flex-col shadow-md basis-1/2"> 
         <div class="grid place-content-center"><img class="md:w-32 lg:w-30 rounded-full" src="../assets/profile.jpeg"></div>
       <div style="font-family: Mainheader;" class="text-2xl mt-5 text-center">Contact me</div>
             <div style="font-family: MainText;" class="pt-5">

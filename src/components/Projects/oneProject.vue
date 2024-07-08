@@ -1,12 +1,19 @@
 <template>
-    <div class="bg-white rounded-lg p-5 position-absolute shadow-lg">
+
+  <div class="flex justify-center pt-5 gap-4 flex-wrap"> 
+    <div class="bg-white static  rounded-lg p-5 shadow-lg">
       <div class="text-center">Filter <br/></div>
         <input type="checkbox" class="m-2" @change="filter()" v-model="filters.Web">Web</input>
         <input type="checkbox" class="m-2" @change="filter()" v-model="filters.AI">AI</input>
         <input type="checkbox" class="m-2" @change="filter()" v-model="filters.AR">AR</input>
         <input type="checkbox" class="m-2" @change="filter()" v-model="filters.VR">VR</input>
+    </br>
     </div>
-    <div class="projects-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+  </div>
+
+<br>
+<div class="flex justify-center gap-4 flex-wrap"> 
+    <div class=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
       <div v-for="item in filter" :key="item.id" >
       <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-xl">
         
@@ -21,8 +28,9 @@
       </div>
     </div>
   </div>
+</div>
   </template>
-  
+
   <script>
 
   import { projects } from '../Projects/projectsStored.vue'
@@ -36,12 +44,15 @@
           AI: true,
           AR: true,
           VR: true,
-        }
+        },
+        isvisible: true,
       };
     },
     computed:{
        filter() {
-        return this.projects.filter(project => this.filters[project.cat]);
+        const thisfilter = this.projects.filter(project => this.filters[project.cat]);
+       
+       return thisfilter
       }
     },
 

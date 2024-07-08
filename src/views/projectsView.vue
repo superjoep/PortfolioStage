@@ -10,9 +10,9 @@ export default {
 }
 </script>
 <template>
-    <div class="flex justify-center flex-row gap-4 flex-wrap"> 
+
     <projects />
     <indivProject />
-  </div>
+
 </template>
 

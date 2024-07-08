@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-3xl p-8 bg-white hover:shadow-xl text-black shadow-md col-span-2 basis-1/2 sm:col-span-1 md:col-span-1 h-auto md:h-full flex">
+  <div class="rounded-3xl flex p-8 bg-white hover:shadow-xl text-black shadow-md">
     <div style="font-family: maintext;">
       <img class="float-start size-40 mr-4" src="../assets/images/Memoji.jpeg" />
       <div style="font-family: Mainheader; display:inline;" class="text-2xl hi-there-container">
