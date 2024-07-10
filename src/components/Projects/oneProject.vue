@@ -20,7 +20,7 @@
         <img :src="item.image" class="project-image w-full h-40 object-cover border-b-2 border-gray-200" />
         <div class="project-title text-xl font-mainheader text-gray-800 text-center py-2">{{ item.title }}</div>
         <div class="project-description text-sm font-maintext text-gray-600 text-center px-2 py-1">
-          {{ item.shortDesc }}
+         <div  class="h-20  text-ellipsis	overflow-hidden">{{ item.description  }}</div> 
           <div class="project-link mt-2">
             <a class="link-text text-blue-500 font-semibold hover:underline" :href="'/singleProject/' + item.id">See Project</a>
           </div>

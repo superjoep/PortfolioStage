@@ -28,31 +28,31 @@
         id:0,
         Year:"2017-2020",
         jobName:"Summa Applicatie & Media ontwikkeling",
-        description:"All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project."
+        description:"At summa college I spent 3 years learning about both back-end and front-end programming."
     },
     {
         id:1,
         Year:"2018-2019",
         jobName:"Internship Drukke baasjes",
-        description:"All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project."
+        description:"Drukke baasjes is a web development company where I created Wordpress websites for different clients during the internship."
     },
     {
         id:2,
         Year:"2019-2020",
         jobName:"Internship Electude",
-        description:"All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project."
+        description:"Electude is a company that develops an online learning platform focused on automotive education. At Electude, I contributed by building online lessons using JavaScript, enhancing the interactivity and effectiveness of the educational content."
     },
     {
         id:3,
         Year:"2020-2025",
         jobName:"Fontys ICT & AI",
-        description:"All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project."
+        description:"At Fontys ICT, I continued my studies, starting with a semester focused on front-end development. Following this, I completed a semester concentrating on innovative technologies. In my final semesters, I specialized in AI."
     },
     {
         id:4,
         Year:"2023-2024",
         jobName:"Internship PIT",
-        description:"All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project."
+        description:"At PIT (Practor Innovative Technologies), I conducted research on enhancing learning through the use of augmented reality (AR). You can find this project on the projects page under the name: Server Simulator."
     },
   ]
 
