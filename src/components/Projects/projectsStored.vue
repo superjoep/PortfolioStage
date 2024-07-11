@@ -4,8 +4,13 @@ const projects = [
       id: 0,
       cat: "Web",
       title: "De blokhut Website",
+      Stakeholder:"",
+      StakeHolderDesc:"",
+      theProblemDesc:"",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet finibus turpis, placerat commodo nulla interdum non. Quisque blandit ante lorem, eget tincidunt justo consectetur vel. Aliquam a arcu est. Aliquam commodo turpis at risus sagittis, sed interdum libero laoreet. Suspendisse lectus nulla, semper nec magna vel.",
-      image: "../src/assets/images/test.jpeg",
+      thumbnail: "../src/assets/images/test.jpeg",
+      image: "",
+      video: "",
       url: ""
     },
     {
@@ -13,45 +18,65 @@ const projects = [
       cat: "AR",
       title: "Server Unit Simulator",
       Stakeholder:"PIT",
-      StakeHolderDesc:"PIT is kort voor practoraat interactieve technologie, PIT werkt met docenten van verschillende scholen om samen de lessen te verbeteren doormiddel van technologie. Voor mijn stage zal ik samen gaan werken meet een van deze docenten om zijn idee voor het verbeteren van zijn lessen te realiseren doormiddel van mijn ICT kennis. Mijn stakeholder voor dit project is Igor, hij is een ICT docent op het ROC in Tilburg. Hij loopt al een tijd tegen het feit aan dat leerlingen lastig kunnen leren werken met server kasten omdat de fysieke ruimte hiervoor te klein is. Daarom wil hij hier een digitale simulatie van hebben zodat leerlingen kunnen leren werken met serverkasten zonder hier fysiek mee bezig te hoeven zijn. Aan mij is het om hier een goede oplossing voor te verzinnen en dit te realiseren.",
-      theProblemDesc:"Door de beperkte ruimte en serverkasten kunnen niet alle leerlingen die op het ROC ICT studeren altijd werken met fysieke serverkasten. Dit is erg jammer aangezien hierdoor de studenten niet in hun eigen tijd voor dit vak alles kunnen leren. Het doel van het project is om leerlingen de mogelijkheid te geven om te leren werken met deze server kasten zonder deze fysiek te hoeven gebruiken. Ze zullen gemakkelijk via hun computer/telefoon een simulatie kunnen gebruiken die hun uitlegt hoe deze kasten in elkaar zitten. Daarnaast krijgen ze doormiddel van gamification opdrachten met de digitale serverkast waardoor ze er goed mee leren werken. Ook zal hierbij gewerkt kunnen worden met XR om van deze lessen een nog realistischere simulatie te maken. Hieronder vind je het projectplan waarin het probleem en andere dingen in meer detail worden uitgelegd.",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet finibus turpis, placerat commodo nulla interdum non. Quisque blandit ante lorem, eget tincidunt justo consectetur vel. Aliquam a arcu est. Aliquam commodo turpis at risus sagittis, sed interdum libero laoreet. Suspendisse lectus nulla, semper nec magna vel.",
-      image: "../src/assets/images/projects/ExplodeView.gif"
+      StakeHolderDesc:"PIT stands for Practoraat Interactieve Technologie. PIT collaborates with teachers from different schools to improve lessons through technology. For my internship, I will work with one of these teachers to realize his idea for enhancing his lessons using my ICT knowledge. My stakeholder for this project is Igor, an ICT teacher at ROC in Tilburg. He has been facing the issue that students find it difficult to learn how to work with server racks because the physical space is too small. Therefore, he wants a digital simulation of server racks so that students can learn to work with them without needing to handle them physically. It is my task to come up with a good solution for this and to implement it.",
+      theProblemDesc:"Due to limited space and server racks, not all students studying ICT at ROC can always work with physical server racks. This is unfortunate because it means students cannot learn everything for this course in their own time. The goal of the project was to give students the opportunity to learn how to work with these server racks without having to use them physically. They can easily use a simulation on their computer/phone that explains how these racks are assembled. Additionally, through gamification, they receive assignments with the digital server rack, helping them learn to work with it effectively. XR technology is also used to create an even more realistic simulation for these lessons.",
+      description: "For PIT, I created an AR application that can be used on both phones and tablets. With this application, you can use augmented reality and the camera to place a simulated server cabinet in your room. You can disassemble the server cabinet and view all the different components along with their names.",
+      thumbnail: "../src/assets/images/projects/ExplodeView.gif",
+      image: "",
+      video: "",
+      url: ""
     },
     {
       id: 2,
       cat: "AI",
       title: "AI Clothing recognizer",
+      Stakeholder:"",
+      StakeHolderDesc:"",
+      theProblemDesc:"",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet finibus turpis, placerat commodo nulla interdum non. Quisque blandit ante lorem, eget tincidunt justo consectetur vel. Aliquam a arcu est. Aliquam commodo turpis at risus sagittis, sed interdum libero laoreet. Suspendisse lectus nulla, semper nec magna vel.",
-      image: "../src/assets/images/test.jpeg"
+      thumbnail: "../src/assets/images/test.jpeg",
+      image: "",
+      video: "",
+      url: ""
     },
     {
       id: 3,
       cat: "AR",
       title: "AR in books",
+      Stakeholder:"",
+      StakeHolderDesc:"",
+      theProblemDesc:"",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet finibus turpis, placerat commodo nulla interdum non. Quisque blandit ante lorem, eget tincidunt justo consectetur vel. Aliquam a arcu est. Aliquam commodo turpis at risus sagittis, sed interdum libero laoreet. Suspendisse lectus nulla, semper nec magna vel.",
-      image: "../src/assets/images/test.jpeg"
+      thumbnail: "../src/assets/images/projects/ARBook.png",
+      image: "",
+      video: "../src/assets/Videos/ARBook.mp4",
+      url: ""
     },
     {
       id: 4,
       cat: "Web",
-      title: "Leelaroosa website",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet finibus turpis, placerat commodo nulla interdum non. Quisque blandit ante lorem, eget tincidunt justo consectetur vel. Aliquam a arcu est. Aliquam commodo turpis at risus sagittis, sed interdum libero laoreet. Suspendisse lectus nulla, semper nec magna vel.",
-      image: "../src/assets/images/test.jpeg"
-    },
-    {
-      id: 5,
-      cat: "Web",
       title: "Waarnemingen.nl",
+      Stakeholder:"",
+      StakeHolderDesc:"",
+      theProblemDesc:"",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet finibus turpis, placerat commodo nulla interdum non. Quisque blandit ante lorem, eget tincidunt justo consectetur vel. Aliquam a arcu est. Aliquam commodo turpis at risus sagittis, sed interdum libero laoreet. Suspendisse lectus nulla, semper nec magna vel.",
-      image: "../src/assets/images/projects/EindhovenInsights.jpeg"
+      thumbnail: "../src/assets/images/projects/EindhovenInsights.jpeg",
+      image: "",
+      video: "",
+      url: ""
     },
     {
       id: 5,
       cat: "AI",
       title: "AI Chat Clone",
+      Stakeholder:"",
+      StakeHolderDesc:"",
+      theProblemDesc:"",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet finibus turpis, placerat commodo nulla interdum non. Quisque blandit ante lorem, eget tincidunt justo consectetur vel. Aliquam a arcu est. Aliquam commodo turpis at risus sagittis, sed interdum libero laoreet. Suspendisse lectus nulla, semper nec magna vel.",
-      image: "../src/assets/images/projects/EindhovenInsights.jpeg"
+      thumbnail: "../src/assets/images/projects/AIchat.png",
+      image: "",
+      video: "",
+      url: ""
     }
   ];
   export { projects };

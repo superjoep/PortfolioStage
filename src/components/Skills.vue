@@ -1,5 +1,5 @@
 <template>
-    <div class="rounded-2xl p-6 bg-green-500 text-white shadow-lg  hover:shadow-xl flex flex-col space-y-4">
+    <div class="rounded-3xl hover:shadow-xl p-8 bg-green-500 text-white shadow-md col-span-2 sm:col-span-1  basis-1/3  md:h-full flex flex-col">
       <div class="text-2xl font-mainheader text-center mb-4">Skills</div>
   
       <div class="font-maintext text-sm space-y-4">
